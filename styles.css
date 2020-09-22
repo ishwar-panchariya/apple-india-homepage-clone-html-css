@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: black;
+    color: lightgray;
+    width: 100%;
+    height: 40px;
+    font-size: 12pt;
+}
+
+ul {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 50px;
+}
+
+li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding-top: 40px;
+}
+
+#banner_one, #banner_two, #banner_three {
+    background-image: url('images/bg1.jpg');
+    background-size: cover;
+    height: 90vh;
+    background-position-y: -150px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.banner > * {
+    display: flex;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 40pt;
+}
+
+.banner h2 {
+    font-size: 26pt;
+    font-weight: lighter;
+}
+
+.banner a {
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#banner_two {
+    background-image: url('images/bg2.jpg');
+    background-position-y: -50px;
+}
+
+#banner_three {
+    background-image: url('images/bg3.jpg');
+    background-position-y: -100px;
+}
+
+.category {
+    display: flex;
+}
+
+.category .box {
+    text-align: center;
+    height: 80vh;
+    width: 50%;
+    margin: 10px;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+}
+
+.category .box a { 
+    text-decoration: none;
+    font-size: 14pt;
+    padding-top: 20px;
+}
+
+#box1 {
+    background-image: url('images/card1.jpg');
+}
+
+#box2 {
+    background-image: url('images/card2.jpg');
+    color: black;
+}
+
+#box3 {
+    background-image: url('images/card3.jpg');
+}
+
+#box4 {
+    background-image: url('images/card4.jpg');
+    color: black;
+}
+
+#box2 .label {
+    color: red;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+footer {
+    background-color: rgba(211,211,211,0.8);
+    width: 100%;
+    height: 200px;
+}
+
+footer .container {
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+footer .container > * {
+    font-size: 10pt;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
